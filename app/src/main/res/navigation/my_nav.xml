@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/fragmentPertama">
+
+    <fragment
+        android:id="@+id/fragmentPertama"
+        android:name="com.example.navigation.FragmentPertama"
+        android:label="Home"
+        tools:layout="@layout/fragment_pertama" />
+    <fragment
+        android:id="@+id/fragmentKedua"
+        android:name="com.example.navigation.FragmentKedua"
+        android:label="Human"
+        tools:layout="@layout/fragment_kedua" />
+    <fragment
+        android:id="@+id/fragmentKetiga"
+        android:name="com.example.navigation.FragmentKetiga"
+        android:label="setting"
+        tools:layout="@layout/fragment_ketiga" />
+</navigation>
